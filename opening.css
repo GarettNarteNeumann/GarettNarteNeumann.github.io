@@ -1,0 +1,50 @@
+@font-face {
+    font-family: quicksand;
+    src: url(quicksand-light.otf);
+}
+body{
+    font-family: quicksand;
+	background-image: url("bg.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+	font-size:30px;
+}
+.hello{
+font-family: quicksand;
+position: absolute;
+display: block;
+width:200px;
+padding: 0.67em;
+top: 50%;
+left: 50%;
+margin-left:-100px;
+text-align:center;
+border: 2px solid #000000;
+}
+a{
+}
+a:hover{
+font-size: 0;
+}
+a:hover:before{
+font-size:30px;
+content: attr(data-hover);
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+    text-decoration: none;
+}
