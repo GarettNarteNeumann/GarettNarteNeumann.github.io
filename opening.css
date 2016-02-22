@@ -1,6 +1,11 @@
 @font-face {
     font-family: quicksand;
-    src: url( GarettNarteNeumann.github.io/Quicksand-Regular.otf );
+    src: url( GarettNarteNeumann.github.io/Quicksand-Light.otf );
+	font-weight: bold;
+}
+@font-face {
+    font-family: quicksand;
+    src: url( GarettNarteNeumann.github.io/Regular.otf );
 }
 body{
     font-family: quicksand;
