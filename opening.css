@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: quicksand;
-    src: url( GarettNarteNeumann.github.io/Regular.otf );
+    src: url(Regular.otf);
 }
 body{
     font-family: quicksand;
