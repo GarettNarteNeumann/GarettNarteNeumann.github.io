@@ -1,6 +1,6 @@
 @font-face {
     font-family: quicksand;
-    src: url(GarettNarteNeumann.github.io/Quicksand-Light.otf);
+    src: url( GarettNarteNeumann.github.io/Quicksand-Regular.otf );
 }
 body{
     font-family: quicksand;
@@ -62,7 +62,7 @@ border: 2px solid #000000;
 }
 .scroll{
 font-family: quicksand;
-font-size:.75em;
+font-size:.6em;
 position: absolute;
 display: block;
 padding: 1.5em;
