@@ -2,6 +2,10 @@
     font-family: quicksand;
     src: url(GarettNarteNeumann.github.io/Quicksand-Light.otf);
 }
+@font-face {
+    font-family: textwall;
+	src: url(GarettNarteNeumann.github.io/fonts/Quicksand-Regular.otf);
+	}
 body{
     font-family: quicksand;
 	background-image: url("bg.png");
@@ -21,4 +25,21 @@ left: 50%;
 margin-left:-200px;
 text-align:center;
 border: 2px solid #000000;
+}
+.scroll{
+font-size:.75em;
+position: absolute;
+display: block;
+padding: 1.5em;
+top: 0%;
+left: 25%;
+width: 50%;
+height: 100%;
+text-align:center;
+background-image: url("textbox.png");
+background-size: cover;
+font-family: textwall;
+}
+.nav{
+float: left;
 }
