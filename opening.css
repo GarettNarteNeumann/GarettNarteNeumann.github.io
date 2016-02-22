@@ -48,3 +48,33 @@ a:active {
     color: black;
     text-decoration: none;
 }
+.Cons{
+font-family: quicksand;
+position: absolute;
+display: block;
+width:400px;
+padding: 0.67em;
+top: 50%;
+left: 50%;
+margin-left:-200px;
+text-align:center;
+border: 2px solid #000000;
+}
+.scroll{
+font-family: quicksand;
+font-size:.75em;
+position: absolute;
+display: block;
+padding: 1.5em;
+top: 0%;
+left: 25%;
+width: 50%;
+height: 100%;
+text-align:center;
+background-image: url("textbox.png");
+background-size: cover;
+}
+.nav{
+float: left;
+}
+
