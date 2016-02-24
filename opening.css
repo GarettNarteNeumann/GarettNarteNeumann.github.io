@@ -72,9 +72,10 @@ font-size:.6em;
 position: absolute;
 display: block;
 padding: 1.5em;
-top: 15%;
-left: 25%;
-width: 50%;
+top: 10em;
+left: 50%;
+margin-left:-25em;
+width: 50em;
 height: 100%;
 text-align:center;
 border: 1px solid #2b132b;
@@ -82,23 +83,26 @@ background-image: url(textbox.png);
 }
 .nav{
 position: fixed;
-display: inline-block;
+display: block;
 padding: 1.5em;
 top: 0;
-width: 2em;
-height: 1.5em;
-margin-left:46%;
+left: 50%;
+width: 50em;
+height: 1 em;
+margin-left:-25em;
 text-align:center;
 border: 1px solid #2b132b;
+background-image: url(textbox.png);
 }
 .nav-content{
 position: fixed;
 display: none;
 padding: 1.5em;
 top: 0;
-left: 10%;
-width: 77%;
-height: 1em;
+left: 50%;
+width: 50em;
+height: 1 em;
+margin-left:-25em;
 text-align:center;
 border: 1px solid #2b132b;
 z-index: 1;
