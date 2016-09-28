@@ -2,6 +2,7 @@
     background-color: #f2975a; /* Orange */
     background: rgba(242, 151, 90);
     color: #ffffff;
+    box-shadow: 3px 3px 3px #000000;
 }
 .bg-1b { 
     background-color: #f2975a; /* Orange */
@@ -11,10 +12,12 @@
 .bg-2 { 
     background-color: #4d2619; /* Dark Red */
     color: #ffffff;
+    box-shadow: 3px 3px 3px #000000;
 }
 .bg-3 { 
     background-color: #ffffff; /* White */
     color: #555555;
+    box-shadow: 3px 3px 3px #000000;
 }
 .container-fluid {
     padding-top: 40px;
