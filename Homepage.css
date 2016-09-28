@@ -1,0 +1,45 @@
+.bg-1 { 
+    background-color: #f2975a; /* Orange */
+    background: rgba(242, 151, 90);
+    color: #ffffff;
+}
+.bg-1b { 
+    background-color: #f2975a; /* Orange */
+    background: rgba(242, 151, 90, 0.6);
+    color: #ffffff;
+}
+.bg-2 { 
+    background-color: #4d2619; /* Dark Red */
+    color: #ffffff;
+}
+.bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+.container-fluid {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.picture-1{
+    background-color: #4d2619;
+    color: #ffffff; 
+    padding-top: 35px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+        }
+.picture-2{
+    background-color: #ffffff;
+    color: #ffffff; 
+    padding-top: 35px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+        }
+body{
+    background-image: url("street.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
